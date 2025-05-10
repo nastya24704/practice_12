@@ -1,9 +1,9 @@
 text = "1234 344 12"
 def simbol(text):
-    simbole = []
+    list = []
     for i in text:
-        if i not in simbole:
-            simbole.append(i)
-    return len(simbole)
+        if i not in list:
+            list.append(i)
+    return len(list)
 
 print(simbol(text))
